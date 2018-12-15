@@ -6,6 +6,7 @@ export default class TaskStore extends Store {
     static get config() {
         return {
             Util,
+            Store,
             Task
         }
     }
