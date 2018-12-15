@@ -1,0 +1,20 @@
+{
+  "name": "rollup-bug",
+  "version": "1.0.0",
+  "description": "Attempt to reproduce weird import problem",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": ".\\node_modules\\.bin\\rollup -c examples\\drag\\rollup.config.js"
+  },
+  "author": "Maxim",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.67.4",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-re": "^1.0.7"
+  }
+}
